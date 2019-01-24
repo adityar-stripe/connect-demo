@@ -11,9 +11,9 @@ Expose port 4567 using ngrok
 Use the Stripe dashboard to add the URL ngrok returns as webhook listener. For eg if http://9df6fcb2.ngrok.io is the URL returned, use http://9df6fcb2.ngrok.io/webhook as the webhook URL and listen only to the source.chargeable event
 
 
-Substitute your private key in App.java.
+Substitute your private key and platform id src/main/java/com/stripe/App.java.
 
-Substitute your public key in input.js
+Substitute your public key in src/main/resources/js/input.js
 
 Install and run using maven
 
